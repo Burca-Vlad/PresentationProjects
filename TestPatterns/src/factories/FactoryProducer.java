@@ -6,7 +6,7 @@ public class FactoryProducer {
 
 	public static AbstractFactory getFactory(FactoryTypes factoryType){
 		switch (factoryType) {
-			case ANIMAL_FACTORY:{
+			case MAMAl_FACTORY:{
 				return new AnimalFactory();
 			}
 			

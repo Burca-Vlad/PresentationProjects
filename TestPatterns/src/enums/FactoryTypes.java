@@ -1,5 +1,5 @@
 package enums;
 
 public enum FactoryTypes {
-	ANIMAL_FACTORY, INSECT_FACTORY
+	MAMAl_FACTORY, INSECT_FACTORY
 }

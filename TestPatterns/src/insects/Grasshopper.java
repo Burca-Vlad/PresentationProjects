@@ -1,30 +1,28 @@
 package insects;
 
-import intefaces.Insects;
+import intefaces.Insect;
 
-public class Grasshopper implements Insects{
+public class Grasshopper implements Insect{
 
 	@Override
-	public void isHatched() {
-		// TODO Auto-generated method stub
-		
+	public void hatches() {
+		System.out.println("Helo world I just hatched.");
+		System.out.println("I am a grasshoper.");
 	}
 
 	@Override
 	public void eat() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("I am eating.");
 	}
 
 	@Override
-	public void drink() {
-		// TODO Auto-generated method stub
-		
+	public void transform() {
+		System.out.println("I am now transforming.");
 	}
 
 	@Override
 	public void die() {
-		// TODO Auto-generated method stub
-		
-	} 
+		System.out.println("I have reached the end of my life.");
+		System.out.println("Dies.");
+	}
 }

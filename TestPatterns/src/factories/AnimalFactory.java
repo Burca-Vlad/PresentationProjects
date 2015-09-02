@@ -3,7 +3,7 @@ package factories;
 import animals.Rat;
 import enums.InsectTypes;
 import enums.MamalTypes;
-import intefaces.Insects;
+import intefaces.Insect;
 import intefaces.Mamal;
 
 public class AnimalFactory extends AbstractFactory{
@@ -25,7 +25,7 @@ public class AnimalFactory extends AbstractFactory{
 	}
 
 	@Override
-	public Insects getInsect(InsectTypes insectType) {
+	public Insect getInsect(InsectTypes insectType) {
 		//NOTHING TO DO
 		return null;
 	}

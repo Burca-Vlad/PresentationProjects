@@ -6,7 +6,7 @@ import animals.Rat;
 import enums.InsectTypes;
 import enums.MamalTypes;
 import insects.Grasshopper;
-import intefaces.Insects;
+import intefaces.Insect;
 import intefaces.Mamal;
 
 public class InsectFactory extends AbstractFactory{
@@ -18,7 +18,7 @@ public class InsectFactory extends AbstractFactory{
 	}
 
 	@Override
-	public Insects getInsect(InsectTypes insectType) {
+	public Insect getInsect(InsectTypes insectType) {
 		
 		switch (insectType) {
 			
